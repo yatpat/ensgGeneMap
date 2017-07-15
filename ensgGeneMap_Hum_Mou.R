@@ -1,4 +1,7 @@
-ensgGeneMap_latest_Hum_Mou <-
+# Usage
+# ensgGeneMap_Hum_Mou(infile="filename",ensAttribues = "ensmeb_gene_id",org = "human")
+
+ensgGeneMap_Hum_Mou <-
 function (infile, ensAttributes, org) 
 {
     if (missing(infile)) {
